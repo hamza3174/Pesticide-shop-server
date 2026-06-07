@@ -30,7 +30,6 @@ app.use(
     })
 );
 
-app.options("*", cors());
 
 // ================= ENV =================
 const PORT = process.env.PORT || 3001;
